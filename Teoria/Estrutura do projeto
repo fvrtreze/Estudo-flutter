@@ -1,0 +1,20 @@
+Pastas essenciais:
+- dart_tool criado através de um pacote build_runner coloca arquivo compilados e incrimentando (não deve ir ao repositório);
+
+- .idea configuração do intellij(android studio é baseado em intellij, tanto esse quanto o arquivo .iml são config do intellij);
+
+- .android é onde é guardado o projeto android, como é um framework nativo ele precisa converter o codigo escrito pra compilado.
+
+- .build é onde fica localizado o build do projeto compilado que vai subir pros simuladores
+
+- .ios mesma coisa do .android
+
+- lib é onde vamos trabalhar 99% do tempo, onde criaremos widgets, pastas, todo o código em si e onde está o main que é a porta de entrada do projeto.
+
+- test pasta de testes pode ser exlcuida se quiser
+
+- git ignore, se for persistir o projeto de coisas que nao devem ser mandadas
+
+- pubspec.lock gerado a partir do pubspeck.yaml 
+
+- pubspeck.yaml que é um arquivo q disz o nome do projeto, descrição, versão, qual sdk, qual menos e maior, informar dependencias para baixar, e assets (imagem etc)
